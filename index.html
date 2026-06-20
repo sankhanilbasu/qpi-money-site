@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QPI.money</title>
     
-    <!-- Favicon using the QPI Logo -->
     <link rel="icon" href="https://raw.githubusercontent.com/sankhanilbasu/qpi-money-site/main/QPi.money%20Logo.png" type="image/png">
     
     <style>
@@ -49,7 +48,25 @@
             width: 450px;
             max-width: 90%;
             height: auto;
-            margin-bottom: 35px;
+            margin-bottom: 25px; /* Tighter spacing to connect with the new text */
+        }
+
+        /* New Typography Styles for the Copy */
+        .hero-title {
+            font-size: 2.2rem;
+            font-weight: 300; /* Ultra thin, elegant font */
+            color: #1C1C1E; /* Deep Slate */
+            margin: 0 0 15px 0;
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1rem;
+            font-weight: 300;
+            color: #8E8E93; /* Apple Subtle Grey */
+            max-width: 550px;
+            margin: 0 auto 35px auto;
+            line-height: 1.6;
         }
         
         .cta-button {
@@ -103,29 +120,33 @@
             opacity: 1; /* Full color on hover */
         }
 
-        /* Mobile Responsiveness for Footer */
+        /* Mobile Responsiveness */
         @media (max-width: 600px) {
             .footer {
                 justify-content: center; /* Centers gracefully on small screens */
                 padding: 20px;
+            }
+            .hero-title {
+                font-size: 1.8rem;
             }
         }
     </style>
 </head>
 <body>
     
-    <!-- Center Content -->
     <div class="main-content">
         <div class="landing-container">
             <img src="https://raw.githubusercontent.com/sankhanilbasu/qpi-money-site/main/QPi.money%20Logo.png" alt="QPI.money Logo" class="logo-img">
+            
+            <h1 class="hero-title">Earn trust,<br>not just income.</h1>
+            <p class="hero-subtitle">QPi turns every honest UPI delivery, lesson, or order into a verifiable Confidence Index — so cloud kitchens, tutors, couriers and freelancers can finally borrow on their behaviour, not their credit score.</p>
+            
             <a href="https://discord.gg/yTaaqF6E" target="_blank" class="cta-button">Join Discord Channel</a>
         </div>
     </div>
 
-    <!-- Bottom Footer (Right-Aligned) -->
     <div class="footer">
-        <span>&copy; All rights reserved Qioseon Labs LLP 2026</span>
-        <!-- Clickable Qioseon Logo -->
+        <span>&copy; All rights reserved copyright Qioseon Labs LLP 2026</span>
         <a href="https://www.qioseonlabs.com/" target="_blank" rel="noopener noreferrer">
             <img src="https://raw.githubusercontent.com/sankhanilbasu/qpi-money-site/main/qioseon%20logo%202026.jpeg" alt="Qioseon Labs Logo" class="qioseon-logo">
         </a>
